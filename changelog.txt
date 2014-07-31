@@ -1,5 +1,5 @@
 ===================================
-Rubine Changelog
+Rubine Lite Changelog
 ===================================
 
 Version 1.0

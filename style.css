@@ -5,8 +5,8 @@ Description: Rubine Lite is a clean and retina-ready magazine theme created with
 Version: 1.0
 Author: ThemeZee
 Author URI: http://themezee.com
-Tags:  two-columns, light, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, flexible-width, one-column, left-sidebar, right-sidebar, black, silver, red, white, green, blue, orange, purple, gray
-Text Domain: rubine-lite-lite-lite
+Tags: two-columns, light, red, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, fluid-layout, responsive-layout, one-column, left-sidebar, right-sidebar, three-columns, four-columns, black, blue, silver, white, green, gray
+Text Domain: rubine-lite
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 ======================================*/
@@ -241,7 +241,7 @@ input, textarea, select {
 	text-decoration: none;
 }
 #topnav-menu a:hover {
-	background: rgba(0,0,0,0.1); 
+	background: rgba(0,0,0,0.2); 
 }
 #topnav-menu li.current_page_item a, #topnav-menu li.current-menu-item a {
 	text-decoration: underline;
@@ -1441,7 +1441,7 @@ embed, iframe, object, video {
 	}
 	#topnav-icon:hover {
 		cursor: pointer;
-		background: rgba(0,0,0,0.1); 
+		background: rgba(0,0,0,0.2); 
 	}
 	#topnav-icon:after {
 		float: left;
@@ -1469,7 +1469,7 @@ embed, iframe, object, video {
 		margin-bottom: 1px;
 	}
 	#topnav-menu a:hover {
-		background: rgba(0,0,0,0.1);
+		background: rgba(0,0,0,0.2);
 	}
 	#topnav-menu li.current_page_item a, #topnav-menu li.current-menu-item a {
 		text-decoration: underline;
