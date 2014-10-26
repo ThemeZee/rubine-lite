@@ -2,6 +2,11 @@
 Rubine Lite Changelog
 ===================================
 
+Version 1.0.3
+-----------------------------------
+[changed] post layout and postmeta for single posts
+[fixed] styling for archive posts without featured image
+
 Version 1.0.2
 -----------------------------------
 [added] new customizer panel for theme options
