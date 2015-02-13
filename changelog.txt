@@ -2,6 +2,10 @@
 Rubine Lite Changelog
 ===================================
 
+Version 1.0.7
+-----------------------------------
+[added] unminified version of html5shiv.min.js
+
 Version 1.0.6
 -----------------------------------
 [improved] styling of blockquotes
