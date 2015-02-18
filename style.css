@@ -1347,7 +1347,7 @@ embed, iframe, object, video {
 #footer a {
 	color: #ddd;
 }
-#footer #credit-link {
+#footer #footer-text {
 	float: left;
 	padding: 1.05em 0;
 	font-size: 0.9em;
@@ -1733,7 +1733,7 @@ embed, iframe, object, video {
 		display: inline-block;
 		margin: 0 -2px 2px 0;
 	}
-	#footer #credit-link {
+	#footer #footer-text {
 		float: none;
 		text-align: center;
 		padding: 0.7em 0 1.4em;
