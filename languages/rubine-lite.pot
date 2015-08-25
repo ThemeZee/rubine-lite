@@ -1,18 +1,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Rubine Lite\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-30 10:25+0100\n"
-"PO-Revision-Date: 2015-04-30 10:25+0100\n"
-"Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
-"Language-Team: ThemeZee <contact@themezee.com>\n"
+"Report-Msgid-Bugs-To: http://themezee.com/\n"
+"POT-Creation-Date: 2015-08-25 15:28+0100\n"
+"PO-Revision-Date: 2015-08-25 15:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: ThemeZee <support@themezee.com>\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;esc_attr_e;esc_attr__\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:9
 msgid "404 Error: Not found"
@@ -36,38 +42,15 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: archive.php:14
-#, php-format
-msgid "Monthly Archives: %s"
-msgstr ""
-
-#: archive.php:14
-msgid "F Y"
-msgstr ""
-
-#: archive.php:16
-msgid "Archives"
-msgstr ""
-
-#: author.php:16
-#, php-format
-msgid "Author Archives: %s"
-msgstr ""
-
-#: category.php:12
-#, php-format
-msgid "Category Archives: %s"
-msgstr ""
-
 #: comments.php:13
 msgid "Enter password to view comments."
 msgstr ""
 
-#: comments.php:23 inc/template-tags.php:91
+#: comments.php:23 inc/template-tags.php:112
 msgid "One comment"
 msgstr ""
 
-#: comments.php:23 inc/template-tags.php:91
+#: comments.php:23 inc/template-tags.php:112
 #, php-format
 msgid "% comments"
 msgstr ""
@@ -140,7 +123,13 @@ msgid ""
 msgstr ""
 
 #: searchform.php:4
+msgctxt "label"
 msgid "Search for:"
+msgstr ""
+
+#: searchform.php:5
+msgctxt "placeholder"
+msgid "Search &hellip;"
 msgstr ""
 
 #: sidebar.php:14
@@ -151,11 +140,6 @@ msgstr ""
 msgid ""
 "There are no active widgets to be displayed. Please go to Appearance -> "
 "Widgets to setup your sidebar."
-msgstr ""
-
-#: tag.php:12
-#, php-format
-msgid "Tag Archives: %s"
 msgstr ""
 
 #: inc/featured-content.php:348
@@ -182,29 +166,29 @@ msgstr ""
 msgid "Display featured posts in latest blog post listing."
 msgstr ""
 
-#: inc/template-tags.php:79
+#: inc/template-tags.php:91
 #, php-format
 msgid "View all posts by %s"
 msgstr ""
 
-#: inc/template-tags.php:91
+#: inc/template-tags.php:112
 msgid "Leave a comment"
 msgstr ""
 
-#: inc/template-tags.php:173
+#: inc/template-tags.php:204
 #, php-format
 msgid "Powered by %1$s and %2$s."
 msgstr ""
 
-#: inc/template-tags.php:174
+#: inc/template-tags.php:205
 msgid "WordPress"
 msgstr ""
 
-#: inc/template-tags.php:175
+#: inc/template-tags.php:206
 msgid "Rubine"
 msgstr ""
 
-#: inc/template-tags.php:207
+#: inc/template-tags.php:238
 msgid ""
 "Please go to WP-Admin-> Appearance-> Menus and create a new custom menu with "
 "custom links to all your social networks. Then click on \"Manage Locations\" "
@@ -371,6 +355,26 @@ msgstr ""
 
 #: inc/customizer/sections/customizer-post.php:78
 msgid "Display [...] after text excerpts."
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:96
+msgid "Postmeta"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:111
+msgid "Display date on posts."
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:126
+msgid "Display author on posts."
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:141
+msgid "Display categories on posts."
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:156
+msgid "Display tags on posts."
 msgstr ""
 
 #: inc/customizer/sections/customizer-upgrade.php:30
