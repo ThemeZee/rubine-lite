@@ -19,19 +19,16 @@ function rubine_enqueue_scripts() {
 	// Passing Parameters to Navigation.js Javascript
 	wp_localize_script( 'rubine-lite-jquery-navigation', 'rubine_navigation_params', array('menuTitle' => __('Menu', 'rubine-lite')) );
 	
+	// Register Comment Reply Script for Threaded Comments
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+
 	// Register and Enqueue Font
 	wp_enqueue_style('rubine-lite-default-fonts', rubine_fonts_url(), array(), null );
 
 }
 
-// Load comment-reply.js if comment form is loaded and threaded comments activated
-add_action( 'comment_form_before', 'rubine_enqueue_comment_reply' );
-
-function rubine_enqueue_comment_reply() {
-	if( get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
-}
 
 /*
 * Retrieve Font URL to register default Google Fonts
