@@ -91,9 +91,6 @@ function rubine_setup() {
 		'height' => 240,
 		'flex-height' => true));
 	
-	// Add Theme Support for Rubine Pro Plugin
-	add_theme_support( 'rubine-pro' );
-	
 	// Register Navigation Menus
 	register_nav_menus( array(
 		'primary'   => __('Main Navigation', 'rubine-lite'),
@@ -158,6 +155,9 @@ require get_template_directory() . '/inc/extras.php';
 
 // include Template Functions
 require( get_template_directory() . '/inc/template-tags.php' );
+
+// Include support functions for Theme Addons
+require get_template_directory() . '/inc/addons.php';
 
 // Include Featured Content class in case it does not exist yet (e.g. user has not Jetpack installed)
 require get_template_directory() . '/inc/featured-content.php';
