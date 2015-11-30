@@ -5,6 +5,8 @@ Rubine Lite Changelog
 Version 1.2.1
 -----------------------------------
 [added] basic support for wooCommerce
+[added] support for ThemeZee Breadcrumbs plugin
+[added] email icon to social menu
 
 Version 1.2.0
 -----------------------------------
