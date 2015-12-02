@@ -41,7 +41,7 @@ function rubine_display_theme_info_page() {
 		
 		<hr>
 		<div class="important-links clearfix">
-			<p><strong><?php esc_html_e( 'Important Links:', 'rubine-lite' ); ?></strong>
+			<p><strong><?php esc_html_e( 'Theme Links:', 'rubine-lite' ); ?></strong>
 				<a href="http://themezee.com/themes/rubine/" target="_blank"><?php esc_html_e( 'Theme Page', 'rubine-lite' ); ?></a>
 				<a href="<?php echo get_template_directory_uri(); ?>/changelog.txt" target="_blank"><?php esc_html_e( 'Changelog', 'rubine-lite' ); ?></a>
 				<a href="http://preview.themezee.com/rubine/" target="_blank"><?php esc_html_e( 'Theme Demo', 'rubine-lite' ); ?></a>
