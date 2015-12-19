@@ -1,7 +1,7 @@
 		
 	<article id="post-<?php the_ID(); ?>" <?php post_class('archive-post clearfix'); ?>>
 
-		<div class="entry-meta postmeta-wrap clearfix">
+		<div class="entry-meta-wrap postmeta-wrap clearfix">
 			
 			<a href="<?php esc_url(the_permalink()) ?>" rel="bookmark">
 				<?php the_post_thumbnail('post-thumbnail'); ?>

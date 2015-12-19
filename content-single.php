@@ -1,7 +1,7 @@
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?>>
 
-		<div class="entry-meta postmeta-wrap clearfix">
+		<div class="entry-meta-wrap postmeta-wrap clearfix">
 
 			<div class="entry-meta postmeta"><?php rubine_display_postmeta(); ?></div>
 		
