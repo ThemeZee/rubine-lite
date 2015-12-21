@@ -212,6 +212,25 @@ if ( ! function_exists( 'rubine_display_post_tags' ) ):
 	
 endif;
 
+
+// Display Rubine Lite plugin
+if ( ! function_exists( 'rubine_display_related_posts' ) ):
+	
+	function rubine_display_related_posts() { 
+		
+		if ( function_exists( 'themezee_related_posts' ) ) {
+
+			themezee_related_posts( array( 
+				'class' => 'related-posts widget clearfix',
+				'before_title' => '<h2 class="widgettitle related-posts-title"><span>',
+				'after_title' => '</span></h2>'
+			) );
+			
+		}
+	}
+	
+endif;
+
 	
 // Display Content Pagination
 if ( ! function_exists( 'rubine_display_pagination' ) ):
