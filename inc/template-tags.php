@@ -213,7 +213,25 @@ if ( ! function_exists( 'rubine_display_post_tags' ) ):
 endif;
 
 
-// Display Rubine Lite plugin
+// Display Single Post Navigation
+if ( ! function_exists( 'rubine_display_post_navigation' ) ):
+	
+	function rubine_display_post_navigation() { 
+		
+		// Get Theme Options from Database
+		$theme_options = rubine_theme_options();
+		
+		if ( true == $theme_options['post_navigation'] ) {
+
+			the_post_navigation( array( 'prev_text' => '&laquo; %title', 'next_text' => '%title &raquo;' ) );
+			
+		}
+	}
+	
+endif;
+
+
+// Display ThemeZee Related Posts plugin
 if ( ! function_exists( 'rubine_display_related_posts' ) ):
 	
 	function rubine_display_related_posts() { 
