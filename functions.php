@@ -116,6 +116,9 @@ function rubine_setup() {
 		'social' => esc_html__( 'Social Icons', 'rubine-lite' ),
 		) 
 	);
+	
+	// Add Theme Support for Selective Refresh in Customizer
+	add_theme_support( 'customize-selective-refresh-widgets' );
 
 }
 
