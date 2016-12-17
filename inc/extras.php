@@ -25,12 +25,12 @@ function rubine_hide_elements() {
 	$elements = array();
 
 	// Hide Site Title?
-	if ( false === $theme_options['site_title'] ) {
+	if ( false == $theme_options['site_title'] ) {
 		$elements[] = '.site-title';
 	}
 
 	// Hide Site Description?
-	if ( false === $theme_options['header_tagline'] ) {
+	if ( false == $theme_options['header_tagline'] ) {
 		$elements[] = '.site-description';
 	}
 

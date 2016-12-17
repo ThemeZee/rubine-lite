@@ -45,7 +45,7 @@ function rubine_theme_info_page() {
 		<div class="important-links clearfix">
 			<p><strong><?php esc_html_e( 'Theme Links', 'rubine-lite' ); ?>:</strong>
 				<a href="<?php echo esc_url( __( 'https://themezee.com/themes/rubine/', 'rubine-lite' ) . '?utm_source=theme-info&utm_medium=textlink&utm_campaign=rubine&utm_content=theme-page' ); ?>" target="_blank"><?php esc_html_e( 'Theme Page', 'rubine-lite' ); ?></a>
-				<a href="http://preview.themezee.com/?demo=rubine&utm_source=theme-info&utm_medium=textlink&utm_campaign=rubine&utm_content=demo" target="_blank"><?php esc_html_e( 'Theme Demo', 'rubine-lite' ); ?></a>
+				<a href="http://preview.themezee.com/?demo=rubine&utm_source=theme-info&utm_campaign=rubine" target="_blank"><?php esc_html_e( 'Theme Demo', 'rubine-lite' ); ?></a>
 				<a href="<?php echo esc_url( __( 'https://themezee.com/docs/rubine-documentation/', 'rubine-lite' ) . '?utm_source=theme-info&utm_medium=textlink&utm_campaign=rubine&utm_content=documentation' ); ?>" target="_blank"><?php esc_html_e( 'Theme Documentation', 'rubine-lite' ); ?></a>
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/support/theme/rubine-lite/reviews/?filter=5', 'rubine-lite' ) ); ?>" target="_blank"><?php esc_html_e( 'Rate this theme', 'rubine-lite' ); ?></a>
 			</p>

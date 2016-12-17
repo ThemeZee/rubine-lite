@@ -168,7 +168,7 @@ function rubine_customize_theme_links() {
 			</p>
 
 			<p>
-				<a href="http://preview.themezee.com/?demo=rubine&utm_source=theme-info&utm_medium=textlink&utm_campaign=rubine&utm_content=demo" target="_blank">
+				<a href="http://preview.themezee.com/?demo=rubine&utm_source=customizer&utm_campaign=rubine" target="_blank">
 					<?php esc_html_e( 'Theme Demo', 'rubine-lite' ); ?>
 				</a>
 			</p>
